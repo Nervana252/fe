@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Puzzle | الرئيسية</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    .hero {
+      background: url('th (21).jpeg') center/cover;
+      height: 70vh;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      position: relative;
+    }
+    
+    .hero:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.4);
+    }
+    
+    .hero-content {
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+      position: relative;
+      z-index: 2;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <!-- الهيدر المركزي -->
+  <header class="header">
+    <div class="header-container">
+      <a href="index.html" class="logo">
+        <i class="fas fa-utensils"></i> Puzzle
+      </a>
+      <nav class="nav-links">
+        <a href="index.html" class="active">الرئيسية</a>
+        <a href="healthy.html">الطعام الصحي</a>
+        <a href="menu.html">قائمة الطعام</a>
+        <a href="team.html">فريقنا</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- قسم البطل المركزي -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1 style="font-size: 3rem; margin-bottom: 1.5rem;">تجربة طعام صحية لا تُنسى</h1>
+      <p style="font-size: 1.2rem; max-width: 700px; margin: 0 auto 2rem;">
+        أطباقنا المصنوعة بمكونات طازجة وعضوية لتجربة غذائية متكاملة
+      </p>
+      <a href="menu.html" class="btn" style="background: var(--white); color: var(--primary);">
+        تصفح القائمة <i class="fas fa-arrow-left"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- المحتوى المركزي -->
+  <main class="main-container">
+    <h2 class="section-title">أحدث عروضنا</h2>
+    
+    <div class="card">
+      <img src="th (22).jpeg" alt="العرض الخاص" style="width: 100%; height: 300px; object-fit: cover;">
+      <div style="padding: 2rem; text-align: center;">
+        <h3 style="color: var(--primary); font-size: 1.5rem;">عرض الأسبوع</h3>
+        <p>احصل على خصم 20% على جميع السلطات الصحية عند الطلب عبر التطبيق</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- الفوتر المركزي -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="social-links" style="margin-bottom: 1.5rem;">
+        <a href="#" style="color: white; margin: 0 10px; font-size: 1.2rem;"><i class="fab fa-facebook"></i></a>
+        <a href="#" style="color: white; margin: 0 10px; font-size: 1.2rem;"><i class="fab fa-instagram"></i></a>
+        <a href="#" style="color: white; margin: 0 10px; font-size: 1.2rem;"><i class="fab fa-whatsapp"></i></a>
+      </div>
+      <p style="margin: 0;">© 2023 Puzzle. جميع الحقوق محفوظة</p>
+    </div>
+  </footer>
+</body>
+</html>
